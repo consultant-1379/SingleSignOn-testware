@@ -1,0 +1,7 @@
+mvn.log
+test-output
+target
+tmp
+bin/
+.classpath
+.project

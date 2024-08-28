@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" ><suite name="SsoPerformance">
+    <test name="SsoPerformance">
+        <classes>
+            <class name="com.ericsson.nms.sso.performance.test.scenario.SsoPerformanceTest">
+                <methods>
+                <include name="setUp"></include>
+                <include name="login2000Users"></include>
+                <include name="assignUsersToRole"></include>
+                <include name="logout2000Users"></include>
+                <include name="login1000UsersAsPreparingToNextTestStep"></include>
+                <include name="loginLogoutUsersParallel"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

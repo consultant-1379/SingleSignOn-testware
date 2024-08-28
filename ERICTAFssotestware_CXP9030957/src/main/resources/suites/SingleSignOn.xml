@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SingleSignOn - Nemesis">
+	<test name="acceptance">
+		<classes>
+			<class name="com.ericsson.nms.sso.test.cases.SSOLoginUITest" />
+			<class name="com.ericsson.nms.sso.test.cases.SSOLauncherUITest" />
+			<class name="com.ericsson.nms.sso.test.cases.SSOLogViewerUITest" />
+			<class name="com.ericsson.nms.sso.test.cases.SSOLogoutUITest" />
+		</classes>
+	</test>
+</suite>
